@@ -1,76 +1,78 @@
 * {
 	margin: 0px;
 	padding: 0px;
-	font-family: arial;
 }
-
-/*=======start here====*/
-.google {
-	width: 590px;
-	margin: 160px auto 0px;
-	position: relative;
-
-}
-
-/*===image===*/
-.google img {
-	display: block;
-	margin: auto;
-}
-
-/*===search field===*/
-.google input {
+.our-team{
 	width: 100%;
-	border: 1px solid #ccc;
-	padding: 12px 20px;
-	box-sizing: border-box;
-	border-radius: 50px;
-	margin: 20px 0px;
+	height: 600px;
+	margin: 50px auto;
 }
-.google i{
-	color: #ccc;
-	position: absolute;
-	left: 3%;
-	top: 46%;
-}
-
-/*===buttons===*/
-.google .button-area {
+h1{
 	text-align: center;
-	margin-bottom: 20px;
+	font-size: 40px;
+	padding: 20px 0;
+	color: rgba(0,0,0,.6);
 }
+.team{
+	width: 33%;
+	float: left;
+	border: 1px solid #fff;
+}
+.our-team .team img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	/*border-radius: 50%;*/
+	margin: 20px auto;
+}
+.our-team .team h3{
+	font-family: serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	padding: 10px 0;
 
-.google .button-area a {
-	text-decoration: none;
+}
+.our-team .team h4{
+	font-family: serif;
+	text-transform: uppercase;;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+
+}
+.our-team .team p{
+	width: 200px;
+	font-family: serif;
+	color: rgba(0,0,0,.8);
+	text-align: center;
+	padding: 5px 0;
+	margin: auto;
+
+}
+.social ul{
+	width: 100%;
+	text-align: center;
+}
+.social ul li{
+	list-style: none;
 	display: inline-block;
-	background-color: #f8f9fa;
-	border: 1px solid #f8f9fa;
-	border-radius: 4px;
-	color: #3c4043;
-	font-size: 14px;
-	margin: 11px 4px;
-	padding: 0 16px;
-	line-height: 35px;
-	height: 36px;
-	min-width: 54px;
-	text-align: center;
+	padding: 10px;
 	cursor: pointer;
-	user-select: none;
+	transition: .3s;
 }
-.google .button-area a:hover{
-	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-	background-color: #f8f9fa;
-	border: 1px solid #dadce0;
-	color: #202124;
+.fa-facebook-f{
+	color: #4867AA;
 }
-
-.google p {
-	color: #3c4043;
-	text-align: center;
-	font-size: 12px;
+.fa-twitter{
+	color: #50ABF1;
 }
-.google p a{
-	display: inline-block;
-	text-decoration: none;
+.fa-linkedin{
+	color: #0077B5;
 }
-/*======end of design======*/
+.fa-instagram{
+	color: #9561C1;
+}
+.social ul li:hover i{
+	color: #000;
+}
